@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <title>未支付页面</title>
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/my_Account.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section id="wrap" class="wrap">
+        <section id="main">
+            <section class="total_container">
+                <section class="order_form">
+                    <dl>
+                        <dt><img src="imgs/wddd%20l.png" alt=""></dt>
+                        <dd>订单详情</dd>
+                    </dl>
+                    <p></p>
+                </section>
+                <section class="Orderdetail_lists">
+                    <section class="Orderdetail_list">
+                        <p>订单状态：<span>未支付</span></p>
+                        <p>订单编号：<span>20040248752</span></p>
+                        <p>订单时间：<span>2014.04.04</span><span class="order_time">21:05</span></p>
+                    </section>
+
+                </section>
+                <section class="Orderdetail_lists">
+                    <section class="Orderdetail_list">
+                        <p>收货人：<span>陈乐文</span></p>
+                        <p>联系方式：<span>15868405835</span></p>
+                        <p>详细地址：<span>浙江省杭州市西湖区转塘街道云溪香山南区16幢2单元702，310013</span></p>
+                    </section>
+                </section>
+                <section class="statuses detail">
+                    <section class="content detail_content">
+                        <section class="prds pOrderdetail">
+                            <section class="pro_img"><img src="imgs/625x465_3412936_10306373_1457303332%20copy.png" alt=""></section>
+                            <section class="pro_title">
+                                <h6>Neuron Pendant 项链</h6>
+                                <p>尺寸：14mm；材质：18K黄金；文字：JIGO </p>
+                                <p>贺卡留言：祝你生日快乐！</p>
+                            </section>
+
+
+                        </section>
+                        <section class="prds">
+                            <section class="pro_img"><img src="imgs/625x465_1444889_12233296_1445357248.png" alt=""></section>
+                            <section class="pro_title">
+                                <h6>Neuron Pendant 项链</h6>
+                                <p>材质：18K黄金；文字：JIGO </p>
+                                <p>贺卡留言：祝你生日快乐！</p>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="sta_amount">
+                        <p>总金额：￥<span>597</span></p>
+                        <div>
+                            <button class="delete_order">删除订单</button>
+                        </div>
+                        <div>
+                            <button class="pay">立即支付</button>
+                        </div>
+                    </section>
+                </section>
+
+            </section>
+            <section id="non_payment" class="non_payment"></section>
+            <section id="paid" class="paid"></section>
+            <section id="none_deal" class="none_deal"></section>
+        </section>
+        <footer class="footer">
+            <dl>
+                <dt><img src="imgs/zy.png" alt=""></dt>
+                <dd>主页</dd>
+            </dl>
+            <dl>
+                <dt><img src="imgs/fl.png" alt=""></dt>
+                <dd>分类</dd>
+            </dl>
+            <dl>
+                <dt><img src="imgs/sq.png" alt=""></dt>
+                <dd>社区</dd>
+            </dl>
+            <dl>
+                <dt><img src="imgs/gwc-s.png" alt=""></dt>
+                <dd>购物车</dd>
+            </dl>
+            <dl class="bg">
+                <dt><img src="imgs/zh.png" alt=""></dt>
+                <dd>账户</dd>
+            </dl>
+        </footer>
+    </section>
+    <script src="lib/setfontsize.js"></script>
+    <script src="lib/jquery.js"></script>
+    <script>
+        ;
+        (function ($) {
+            var sta_amount = $(".sta_amount p span").html();
+            console.log(sta_amount);
+
+        })(jQuery);
+    </script>
+</body>
+
+</html>
